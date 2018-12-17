@@ -12,9 +12,11 @@ API Documentation
 -----------------
 
 - `/all` to fetch all data
-- `/add` to add data
-- `/del` to delete data with name
-- `/delid` to delete data with id
+- `/add/:name/:id?` to add data
+- `/del/:name` to delete data with name
+- `/delid/:id` to delete data with id
+
+[Source code](https://github.com/dungwinux/back-mongo)
 
 Made by [Glitch](https://glitch.com/)
 -------------------
