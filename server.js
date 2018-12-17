@@ -6,13 +6,10 @@ const PORT = 3000;
 const app = express();
 
 app.get("/", (request, response) => {
-    let reply = "Hello World\n\n";
-    reply += "'/all' to fetch all data\n";
-    reply += "'/add' to add data\n";
-    reply += "'/del' to delete data with name\n";
-    reply += "'/delid' to delete data with id\n";
-    response.send(reply);
+    response.send("Hello World. See `/help.txt` for details.");
 });
+
+app.use(express.static('public'));
 
 app.get("/all", (request, response) => {
     (async () => {
