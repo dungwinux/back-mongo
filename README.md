@@ -11,10 +11,10 @@ Start here
 API Documentation
 -----------------
 
-`/all` to fetch all data
-`/add` to add data
-`/del` to delete data with name
-`/delid` to delete data with id
+- `/all` to fetch all data
+- `/add` to add data
+- `/del` to delete data with name
+- `/delid` to delete data with id
 
 Made by [Glitch](https://glitch.com/)
 -------------------
